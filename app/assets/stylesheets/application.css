@@ -1,6 +1,6 @@
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
+ * booked below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
  * vendor/assets/stylesheets directory can be referenced here using a relative path.
@@ -13,3 +13,98 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+body {
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:13px;
+  line-height: 18px;
+  margin: 33px;
+  /*display: block;*/
+}
+
+table {
+
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  unicode-bidi: isolate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+table th,
+table td {
+  padding: 8px;
+
+}
+
+table th {
+  text-align: center;
+
+}
+
+.button {
+  white-space: pre;
+  padding-block: 1px;
+  padding-inline: 6px;
+  display: block;
+}
+
+
+
+
+
+a {
+  color: #333; /* 通常時のリンク色を指定 */
+}
+
+a:hover {
+  background-color: black;
+  color: white; /* ホバー時のリンク色を指定 */
+}
+
+a:visited {
+    color: #666;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+
+
+
+
+.flash-message {
+  border-radius: 5px;
+  padding: 16px 0px;
+  margin: 16px 0px;
+}
+
+.flash-message.notice {
+  color: green;
+}
+
+.flash-message.alert {
+  color: green;
+}
